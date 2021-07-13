@@ -4,4 +4,4 @@
 
 แปลโดย กรชวัล ชายผา, ธัชพงศ์ กตัญญูกุล และจิระเดช พลสวัสดิ์
 
-  * [pdf](https://github.com/tatpongkatanyukul/thinkpythonthai/blob/master/ThaiPython03e.pdf)
+  * [คิดไพธอน (Think Python---Thai version) in pdf](https://github.com/tatpongkatanyukul/thinkpythonthai/blob/master/ThaiPython03e.pdf)
