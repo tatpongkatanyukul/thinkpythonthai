@@ -13,7 +13,7 @@ Latex tricks:
  * ```\section[ตารางแฮช]{ตารางแฮช (Hashtables)}```
    * แยกชื่อหัวข้อที่แสดง กับชื่อที่ปรากฎในสารบัญ 
  * compile เป็น latex หรือ html
-    * option 1: compile it wiht ```htlatex```, e.g., ```htlatex article.tex``` (see [How to convert latex to html](https://data-mining.philippe-fournier-viger.com/how-to-convert-latex-to-html/))
+    * option 1: compile it wiht ```htlatex```, e.g., ```htlatex book.tex``` (see [How to convert latex to html](https://data-mining.philippe-fournier-viger.com/how-to-convert-latex-to-html/))
       * ```htlatex``` seems to have troubles with ```fontspec```, so using ```fontspec``` to handle thai would not allow this option.
  * Put all fonts into pdf (mitigate the issue of font missing during print):
  ```
