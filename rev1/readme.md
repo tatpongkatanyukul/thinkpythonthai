@@ -15,3 +15,7 @@ Latex tricks:
  ```latex
  test
  ```
+ * Put all fonts into pdf (mitigate the issue of font missing during print):
+ ```
+ C:\"Program Files"\gs\gs9.54.0\bin\gswin64c -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dEmbedAllFonts=true -sOutputFile=TPrev1b_fixed.pdf -f TPrev1b.pdf
+ ```
