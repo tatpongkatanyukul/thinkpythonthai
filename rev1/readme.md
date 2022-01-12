@@ -12,9 +12,9 @@ Latex tricks:
  * ```\section[ตารางแฮช]{ตารางแฮช (Hashtables)}```
    * แยกชื่อหัวข้อที่แสดง กับชื่อที่ปรากฎในสารบัญ 
  * compile เป็น latex หรือ html
- ```latex
- test
- ```
+    * option 1: compile it wiht ```htlatex```, e.g., ```htlatex article.tex``` (see [How to convert latex to html](https://data-mining.philippe-fournier-viger.com/how-to-convert-latex-to-html/))
+      * ```htlatex``` seems to have troubles with ```fontspec```, so using ```fontspec``` to handle thai would not allow this option.
+
  * Put all fonts into pdf (mitigate the issue of font missing during print):
  ```
  C:\"Program Files"\gs\gs9.54.0\bin\gswin64c -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dEmbedAllFonts=true -sOutputFile=TPrev1b_fixed.pdf -f TPrev1b.pdf
