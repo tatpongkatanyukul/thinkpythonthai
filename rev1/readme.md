@@ -6,8 +6,11 @@
 
 Latex tricks:
  * ```\index{main!sub}```
+   * ทำดัชนีเป็นลำดับชั้น
  * ```\index{join@\textbf{join}}```
+   * เปลี่ยนฟอนต์ดัชนี (เน้นจุดที่เป็นหัวข้อหลัก)
  * ```\section[ตารางแฮช]{ตารางแฮช (Hashtables)}```
+   * แยกชื่อหัวข้อที่แสดง กับชื่อที่ปรากฎในสารบัญ 
  * compile เป็น latex หรือ html
  ```latex
  test
