@@ -5,6 +5,7 @@
  * ส่งจริง ?
 
 Latex tricks:
+ * ```\newcommand\atom[1]{\noindent\mbox{#1}\noindent}``` sort of a patch for bad thai word segmentation, but then I have to manually apply ```\atom{word}``` to every word I need to keep it intact. Painful! Verdict: don't do latex for thai.
  * ```\index{main!sub}```
    * ทำดัชนีเป็นลำดับชั้น
  * ```\index{join@\textbf{join}}```
@@ -14,7 +15,6 @@ Latex tricks:
  * compile เป็น latex หรือ html
     * option 1: compile it wiht ```htlatex```, e.g., ```htlatex article.tex``` (see [How to convert latex to html](https://data-mining.philippe-fournier-viger.com/how-to-convert-latex-to-html/))
       * ```htlatex``` seems to have troubles with ```fontspec```, so using ```fontspec``` to handle thai would not allow this option.
-
  * Put all fonts into pdf (mitigate the issue of font missing during print):
  ```
  C:\"Program Files"\gs\gs9.54.0\bin\gswin64c -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dEmbedAllFonts=true -sOutputFile=TPrev1b_fixed.pdf -f TPrev1b.pdf
