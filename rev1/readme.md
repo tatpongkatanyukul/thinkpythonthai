@@ -19,3 +19,8 @@ Latex tricks:
  ```
  C:\"Program Files"\gs\gs9.54.0\bin\gswin64c -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dPDFSETTINGS=/prepress -dEmbedAllFonts=true -sOutputFile=TPrev1b_fixed.pdf -f TPrev1b.pdf
  ```
+
+## แก้ไม่ได้
+  * Latex ตัดคำภาษาไทยสุดห่วย ตัองไล่ดู แล้วแก้มือแต่ละบรรทัด ... เจ็บปวดสุด ๆ
+    * พอดีกว่า ... เก็บ latex ไว้ใช้กับภาษาอังกฤษดีกว่า
+    * แล้วภาษาไทย ใช้อะไร ???? ...
