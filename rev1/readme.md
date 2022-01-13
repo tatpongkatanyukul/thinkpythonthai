@@ -24,3 +24,8 @@ Latex tricks:
   * Latex ตัดคำภาษาไทยสุดห่วย ตัองไล่ดู แล้วแก้มือแต่ละบรรทัด ... เจ็บปวดสุด ๆ
     * พอดีกว่า ... เก็บ latex ไว้ใช้กับภาษาอังกฤษดีกว่า
     * แล้วภาษาไทย ใช้อะไร ???? ...
+
+## Latex addition tricks
+I learn it from somewhere else, but it is too cool to leave them out.
+  * [https://texfaq.org/FAQ-fontunavail](https://texfaq.org/FAQ-fontunavail)
+    * fix: "use the type1cm or type1ec package as appropriate." 
