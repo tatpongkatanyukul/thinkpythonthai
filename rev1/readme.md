@@ -28,4 +28,4 @@ Latex tricks:
 ## Latex addition tricks
 I learn it from somewhere else, but it is too cool to leave them out.
   * [https://texfaq.org/FAQ-fontunavail](https://texfaq.org/FAQ-fontunavail)
-    * fix: "use the type1cm or type1ec package as appropriate." 
+  * ```tlmgr``` (see [TexLive: tlmgr](https://www.tug.org/texlive/tlmgr.html))
