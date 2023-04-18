@@ -2,4 +2,4 @@
 
 Finished: Apr 15, 2023.
 
-![Cover]()
+![Cover](https://raw.githubusercontent.com/tatpongkatanyukul/thinkpythonthai/master/final/ThinkPythonCover.png)
